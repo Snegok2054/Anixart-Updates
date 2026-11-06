@@ -1,0 +1,24 @@
+{
+  "release": {
+    "schema": 1,
+    "version": "4.6.2",
+    "notes": "Исправлена чёткость обложек в списках, связанных релизах и карточке аниме на Retina и при увеличенном масштабе Windows. Убрано промежуточное уменьшение изображения до логического размера.\n\n«Обзор» загружает миниатюры с учётом масштаба экрана и обновляет их при его смене. Сохранены ограничения памяти: до200 строк, до8 ожидающих изображений и освобождение миниатюр за пределами видимой области. Исходные обложки в дисковом кеше сохраняются; очищать кеш после обновления не требуется.\n",
+    "assets": {
+      "win32": {
+        "url": "https://github.com/Snegok2054/Anixart-Updates/releases/download/v4.6.2/Anixart-4.6.2-Windows.exe",
+        "sha256": "4207f6ca9ff3d675bc1b7b287b4d8b79bd6709350b5262a2b451099db033d3ff",
+        "size": 115063045,
+        "minimum_os": "10.0",
+        "format": "exe"
+      },
+      "darwin": {
+        "url": "https://github.com/Snegok2054/Anixart-Updates/releases/download/v4.6.2/Anixart-4.6.2-macOS14.4-universal.dmg",
+        "sha256": "cfe8631fd08b5b711ee63bca27ea849186f9583d58dc20500dba077f21eee51f",
+        "size": 206944219,
+        "minimum_os": "14.4",
+        "format": "dmg"
+      }
+    }
+  },
+  "signature": "Vq/RSvb6N5cfqIFUE/9/RN/C+pcdEWBidSD6NJZ59Pd473M91eBe5mVrgEZnSEIbH6ERqkrvpx3lEEegWFvACA=="
+}
