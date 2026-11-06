@@ -1,25 +1,24 @@
 {
   "release": {
     "schema": 1,
-    "version": "4.6.0",
-    "notes": "Автообновления Anixart для Windows и macOS.\n\nПроверка выпусков вручную и в фоне раз в сутки, подписанное описание версии, проверка SHA-256 пакета и продолжение прерванной загрузки.\nУстановка с перезапуском, сохранением данных и восстановлением предыдущей программы при сбое запуска.\nЕдиная нумерация X.Z.U, один запущенный экземпляр между версиями и очистка завершённых пакетов обновления.\n\nПервую версию с обновлятором установите вручную. Следующие выпуски доступны через Настройки → Обновления приложения.\n",
+    "version": "4.6.1",
+    "notes": "Исправлено описание состояния: при отключённой автопроверке раздел «Обновления» правильно сообщает, что проверка отключена. Ручная проверка остаётся доступной.\n\nАвтообновления Windows и macOS через GitHub: проверка раз в сутки с возможностью отключить, загрузка с продолжением, проверка цифровой подписи и SHA-256, установка с перезапуском и восстановлением предыдущей версии при неудачном запуске. Профиль, настройки и загруженные серии сохраняются.\n",
     "assets": {
       "win32": {
-        "url": "https://github.com/Snegok2054/Anixart-Updates/releases/download/v4.6.0/Anixart-4.6.0-Windows.exe",
-        "sha256": "9aa4e1f409f436a3ff064509172b72fb1c9c7b1d7fe576dac940e7c30eee468c",
-        "size": 115056620,
+        "url": "https://github.com/Snegok2054/Anixart-Updates/releases/download/v4.6.1/Anixart-4.6.1-Windows.exe",
+        "sha256": "faf7c3bce2fcabc2b07ff1832a483a54fab30104cfea88ab6ac760f3ed92911d",
+        "size": 115057171,
         "minimum_os": "10.0",
         "format": "exe"
       },
       "darwin": {
-        "url": "https://github.com/Snegok2054/Anixart-Updates/releases/download/v4.6.0/Anixart-4.6.0-macOS14.4-universal.dmg",
-        "sha256": "d9be9043a7ca3216c07e8581e6104f98761140761e2cb570b76b2d2b87f21562",
-        "size": 206940306,
+        "url": "https://github.com/Snegok2054/Anixart-Updates/releases/download/v4.6.1/Anixart-4.6.1-macOS14.4-universal.dmg",
+        "sha256": "6f9a77adc7ad6c56471c38e4c8054f58898b47a9a6ddd46d2a563b5ffbc6853d",
+        "size": 206932745,
         "minimum_os": "14.4",
         "format": "dmg"
       }
     }
   },
-  "signature": "8u6949a9/4ztajY1/9YNQPSN3YJtfeINJ8k3npj/th+dx3vt5DUrY2pHH1l5cqLzUnBr2D7FJ98bxFgzI3jwCw=="
+  "signature": "oHgqqH3vsgTtGNIyUUy1oOQeGPc1GPZHChQrpOVhfTxNqup2oyiu/l/IvZ53naPR2eCXMXMDlSEJYSWY5HN1Bw=="
 }
-
